@@ -4,7 +4,7 @@ document.getElementById('addProjectBtn').addEventListener('click', function () {
     var newProject = {
         title: 'Proyek Baru',
         description: 'Ini adalah proyek baru yang dibuat secara dinamis.',
-        image: 'images/project-3.jpg' // Ganti dengan placeholder
+        image: 'img/project.jpg' // Ganti dengan placeholder
     };
 
     // Membuat elemen proyek baru
