@@ -1,0 +1,100 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header Section */
+.hero {
+    background: linear-gradient(to bottom right, #1e90ff, #6a5acd);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 span {
+    color: #ffc107;
+}
+
+/* About Section */
+.about {
+    padding: 50px 0;
+    background: white;
+    text-align: center;
+}
+
+.profile-image {
+    max-width: 150px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 0;
+    background: #f9f9f9;
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-item {
+    flex: 1 1 calc(33% - 20px);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.add-project-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-project-btn:hover {
+    background: #6a5acd;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
